@@ -1,0 +1,23 @@
+// Buttons styles
+.btn {
+  display: inline-block !important;
+  padding: 0.5rem 1rem !important;
+  border: 0 !important;
+  margin-bottom: 0.3rem !important;
+  &:hover {
+    background: $secondary-color !important;
+    color: set-text-color($secondary-color) !important;
+  }
+}
+
+.btn-dark {
+  @extend .btn;
+  background-color: darken($primary-color, 50) !important;
+  color: #fff !important;
+}
+
+.btn-light {
+  @extend .btn;
+  background-color: lighten($primary-color, 50) !important;
+  color: #333 !important;
+}
