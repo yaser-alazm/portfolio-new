@@ -167,13 +167,35 @@ main#work .work-projects .job-3 {
 }
 main#work .work-projects .job {
   background: rgba(83, 78, 78, 0.8) !important;
-  padding: 0.7rem !important;
+  padding: 1rem 1.5rem !important;
   border-bottom: solid 5px #00d8ff !important;
   min-height: 110% !important;
   position: relative !important;
 }
 main#work .work-projects .job .job-title {
   font-weight: bold !important;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+main#work .work-projects .job .job-subtitle {
+  display: block;
+  font-size: 0.9em;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+main#work .work-projects .job .job-paragraph {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 main#work .work-projects .job .btns-wrapper {
   position: absolute !important;

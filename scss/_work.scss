@@ -19,13 +19,35 @@ main#work {
 
     .job {
       background: lighten($primary-color, 5) !important;
-      padding: 0.7rem !important;
+      padding: 1rem 1.5rem !important;
       border-bottom: solid 5px $secondary-color !important;
       min-height: 110% !important;
+      position: relative !important;
       .job-title {
         font-weight: bold !important;
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
       }
-      position: relative !important;
+      .job-subtitle {
+        display: block;
+        font-size: 0.9em;
+        margin-block-start: 2.33em;
+        margin-block-end: 2.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      .job-paragraph {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+      }
       .btns-wrapper {
         // margin-bottom: auto;
         position: absolute !important;
