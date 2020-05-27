@@ -6,7 +6,7 @@
   "homepage": "https://yaser-alazem.github.io/portfolio-new",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r 'https://github.com/yaser-alazem/portfolio-new.git'"
   },
   "author": "Yaser AlAzem",
   "license": "MIT",

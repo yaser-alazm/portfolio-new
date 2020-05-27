@@ -2,27 +2,19 @@ main#work {
   min-height: calc(100vh - 60px) !important;
 
   .work-projects {
-    display: grid !important;
-    grid-gap: 30px !important;
-    grid-template-areas: 'job1 job2 job3' !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-
-    .job-1 {
-      grid-area: job1 !important;
-    }
-    .job-2 {
-      grid-area: job2 !important;
-    }
-    .job-3 {
-      grid-area: job3 !important;
-    }
-
+    display: flex;
+    justify-content: space-around;
     .job {
       background: lighten($primary-color, 5) !important;
       padding: 1rem 1.5rem !important;
       border-bottom: solid 5px $secondary-color !important;
       min-height: 110% !important;
       position: relative !important;
+      margin-right: 0.5em;
+      display: flex;
+      flex-direction: column;
+      // flex: 1;
+      justify-content: space-between;
       .job-title {
         font-weight: bold !important;
         display: block;
@@ -34,25 +26,35 @@ main#work {
       }
       .job-subtitle {
         display: block;
-        font-size: 0.9em;
-        margin-block-start: 2.33em;
-        margin-block-end: 2.33em;
+        font-size: 0.7em;
+        color: $secondary-color;
+        font-weight: bold;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        font-weight: bold;
+        span {
+          background-color: #333;
+          padding: 5px;
+          border-radius: 5px;
+          margin: 0;
+          margin-right: 0;
+        }
       }
       .job-paragraph {
-        display: block;
         margin-block-start: 1em;
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
       }
       .btns-wrapper {
-        // margin-bottom: auto;
-        position: absolute !important;
-        top: auto !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
       }
+    }
+    &.new-row {
+      margin-top: 10px;
     }
   }
 }
