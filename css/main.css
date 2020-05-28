@@ -273,7 +273,7 @@ header {
 #main-footer {
   text-align: center !important;
   padding: 1rem !important;
-  height: 60px !important;
+  min-height: 60px !important;
   background-color: rgba(44, 41, 41, 0.8) !important;
   color: #fff !important !important; }
 
