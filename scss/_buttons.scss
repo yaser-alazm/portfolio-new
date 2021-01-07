@@ -14,10 +14,19 @@
   @extend .btn;
   background-color: darken($primary-color, 50) !important;
   color: #fff !important;
+  border-radius: 5px;
 }
 
 .btn-light {
   @extend .btn;
   background-color: lighten($primary-color, 50) !important;
   color: #333 !important;
+  border-radius: 5px;
+}
+
+.btn-youtube {
+  @extend .btn;
+  background-color: lighten($primary-color, 50) !important;
+  color: rgb(196, 12, 12) !important;
+  border-radius: 5px;
 }
