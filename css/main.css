@@ -120,7 +120,8 @@ main#work {
   min-height: calc(100vh - 60px) !important; }
   main#work .work-projects {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin-top: 1em; }
     main#work .work-projects .job {
       background: rgba(83, 78, 78, 0.8) !important;
       padding: 1rem 1.5rem !important;
@@ -130,6 +131,7 @@ main#work {
       margin-right: 0.5em;
       display: flex;
       flex-direction: column;
+      flex: 1;
       justify-content: space-between; }
       main#work .work-projects .job .job-title {
         font-weight: bold !important;
@@ -178,21 +180,28 @@ main#work {
       border-color: #00d8ff;
       transition: all 0.5s ease-out !important; }
 
-.btn, .btn-dark, .btn-light {
+.btn, .btn-dark, .btn-light, .btn-youtube {
   padding: 0.5rem 1rem !important;
   border: 0 !important;
   margin-bottom: 0.3rem !important; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
+  .btn:hover, .btn-dark:hover, .btn-light:hover, .btn-youtube:hover {
     background: #00d8ff !important;
     color: #000 !important !important; }
 
 .btn-dark {
   background-color: rgba(0, 0, 0, 0.8) !important;
-  color: #fff !important; }
+  color: #fff !important;
+  border-radius: 5px; }
 
 .btn-light {
   background-color: rgba(197, 194, 194, 0.8) !important;
-  color: #333 !important; }
+  color: #333 !important;
+  border-radius: 5px; }
+
+.btn-youtube {
+  background-color: rgba(197, 194, 194, 0.8) !important;
+  color: #c40c0c !important;
+  border-radius: 5px; }
 
 .boxes {
   display: flex;
@@ -249,7 +258,7 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 5rem !important; }
+    font-size: 4.5rem !important; }
   h1.main-heading,
   h2.main-heading,
   h3.main-heading {
