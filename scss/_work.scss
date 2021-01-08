@@ -5,6 +5,7 @@ main#work {
     display: flex;
     justify-content: space-around;
     margin-top: 1em;
+    align-items: flex-start;
     .job {
       background: lighten($primary-color, 5) !important;
       padding: 1rem 1.5rem !important;
@@ -60,18 +61,18 @@ main#work {
   }
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.7rem;
+// .projects {
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   grid-gap: 0.7rem;
 
-  img {
-    width: 100%;
-    border: #fff solid 3px;
-    &:hover {
-      opacity: 0.5;
-      border-color: $secondary-color;
-      @include ease-out;
-    }
-  }
-}
+//   img {
+//     width: 100%;
+//     border: #fff solid 3px;
+//     &:hover {
+//       opacity: 0.5;
+//       border-color: $secondary-color;
+//       @include ease-out;
+//     }
+//   }
+// }
