@@ -356,4 +356,6 @@ main {
     flex-direction: column;
     margin-top: 0; }
     .work-projects .job {
-      margin-top: 1rem; } }
+      margin-top: 1rem; }
+      .work-projects .job .job-subtitle span {
+        margin-top: 5px; } }

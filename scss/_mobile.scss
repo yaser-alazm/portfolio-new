@@ -109,6 +109,9 @@
     margin-top: 0;
     .job {
       margin-top: 1rem;
+      .job-subtitle span {
+        margin-top: 5px;
+      }
     }
   }
 }
