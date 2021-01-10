@@ -12,6 +12,7 @@
     margin-bottom: 1.5rem;
     min-width: 40%;
     text-align: center;
+    flex-wrap: wrap;
     @include ease-out;
 
     &:hover {
