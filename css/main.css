@@ -9,7 +9,7 @@
     height: 3px;
     width: 28px;
     margin: 0 0 5px 0;
-    background: #fff !important;
+    background-color: #fff !important;
     transition: all 0.5s ease-out !important; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -70,7 +70,7 @@
       text-transform: uppercase;
       padding: 1rem 0;
       font-weight: 300;
-      color: #fff !important;
+      color: #fff;
       text-decoration: none;
       transition: all 0.5s ease-out !important; }
       .menu .nav-item .nav-link:hover {
@@ -91,7 +91,7 @@
   transition-delay: 0.4s; }
 
 main#about {
-  min-height: calc(100vh - 60px) !important; }
+  min-height: calc(100vh - 82px) !important; }
   main#about .about-info {
     display: grid;
     grid-gap: 30px;
@@ -104,7 +104,9 @@ main#about {
       border: solid 3px #00d8ff !important; }
     main#about .about-info .bio {
       grid-area: bio;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      padding: 1rem;
+      background-color: rgba(70, 66, 66, 0.8); }
     main#about .about-info .job-1 {
       grid-area: job1; }
     main#about .about-info .job-2 {
@@ -117,7 +119,7 @@ main#about {
       border-bottom: solid 5px #00d8ff !important; }
 
 main#work {
-  min-height: calc(100vh - 60px) !important; }
+  min-height: calc(100vh - 82px) !important; }
   main#work .work-projects {
     display: flex;
     justify-content: space-around;
@@ -175,7 +177,7 @@ main#work {
   margin-bottom: 0.3rem !important; }
   .btn:hover, .btn-dark:hover, .btn-light:hover, .btn-youtube:hover {
     background: #00d8ff !important;
-    color: #000 !important !important; }
+    color: #000 !important; }
 
 .btn-dark {
   background-color: rgba(0, 0, 0, 0.8) !important;
@@ -197,7 +199,8 @@ main#work {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  min-height: 50vh; }
   .boxes .box {
     border: 3px solid #fff;
     padding: 1rem 2rem;
@@ -207,11 +210,11 @@ main#work {
     text-align: center;
     flex-wrap: wrap;
     transition: all 0.5s ease-out !important; }
-    .boxes .box:hover {
+    .boxes .box.hover:hover {
       background-color: #00d8ff;
-      color: #000 !important; }
-      .boxes .box:hover span {
-        color: #000 !important; }
+      color: #000; }
+      .boxes .box.hover:hover span {
+        color: #000; }
 
 * {
   box-sizing: border-box !important; }
@@ -220,7 +223,7 @@ html {
   min-height: 100vh; }
 
 body {
-  color: #fff !important;
+  color: #fff;
   min-height: 100vh;
   margin: 0 !important;
   line-height: 1.5 !important;
@@ -278,11 +281,11 @@ header {
   padding: 1rem !important;
   min-height: 60px !important;
   background-color: rgba(44, 41, 41, 0.8) !important;
-  color: #fff !important !important; }
+  color: #fff !important; }
 
 main {
   padding: 4rem !important;
-  min-height: calc(100vh - 60px) !important; }
+  min-height: calc(100vh - 82px) !important; }
   main .icons {
     margin-top: 1rem !important; }
     main .icons a {
