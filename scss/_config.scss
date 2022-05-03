@@ -4,6 +4,7 @@ $secondary-color: #00d8ff;
 $show-home-image: true;
 $home-image: url('../img/background.jpg');
 $background-opacity: 0.5;
+$footer-height: 82px;
 
 //@mixins
 @mixin ease-out {
@@ -35,9 +36,9 @@ $background-opacity: 0.5;
 //Set the text color dinamically depending on the background color
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
-    @return #000 !important;
+    @return #000;
   } @else {
-    @return #fff !important;
+    @return #fff;
   }
 }
 //Media query mixins

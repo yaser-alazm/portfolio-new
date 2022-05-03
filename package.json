@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "A responsive portfolio webiste.",
   "main": "index.js",
-  "homepage": "https://yaser-alazem.github.io/portfolio-new",
+  "homepage": "https://yaser-alazm.github.io/portfolio-new",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist -r 'https://github.com/yaser-alazem/portfolio-new.git'"
+    "deploy": "gh-pages -d dist -r 'https://github.com/yaser-alazm/portfolio-new.git'"
   },
-  "author": "Yaser AlAzem",
+  "author": "Yaser AlAzm",
   "license": "MIT",
   "dependencies": {
     "cryptiles": "^4.1.3",

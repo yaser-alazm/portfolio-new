@@ -1,5 +1,5 @@
 main#about {
-  min-height: calc(100vh - 60px) !important;
+  min-height: calc(100vh - 82px) !important;
 
   .about-info {
     display: grid;
@@ -17,6 +17,8 @@ main#about {
     .bio {
       grid-area: bio;
       font-size: 1.5rem;
+      padding:1rem;
+      background-color: $primary-color;
     }
 
     .job-1 {
